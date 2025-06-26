@@ -1,30 +1,114 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.position{
-    background-image: url("image/soccer.jpg");
+body{
+    background-image: url("image/haikei.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
     background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+#content_nav{
+    background-color: aquamarine;
+    color: black;
+    padding: 10px;
+    width: 100%;
+}
+#content_nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+#content_nav a{
+    color: blue;
+    text-decoration: none;
+    padding: 10px;
+}
+#content_nav a:hover{
+    background-color: aqua;
+}
+.information img{
+    width: 220px;
+    height: 41%;
+    position: fixed;top: 10%;right: 20%;
+}
+.information{
+    font-family:serif;
+    color: aliceblue;
+    text-align: center;
+    height: 100%;
+}
+.profile{
+    background-color: gold;
+    margin-left: 20%;
+    width: 60%;
+    text-align: center;
+    border: solid 2px black;
+    box-shadow: 2px 2px 4px deeppink;
+    border-radius: 5px;
+}
+.profile img{
+    width: 20%;
+    height: 30%;
+    position: fixed;top: 17%;right: 20%;
+}
+.hobby{
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 5%;
+    text-align: center;
+    border: solid 1px;
+    border-radius: 5px;
+}
+.hobby h1{
+    font-family: serif;
+}
+.birthday{
+    color: aliceblue;
+}
+.sport{
+    color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.sport p{
+    font-size: 25px;
+}
+.anime{
+    color: aliceblue;
+    text-align: center;
+}
+.Contents{
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+}
+.kisibe{
+    color: aliceblue;
+}
+.people{
+    color: aliceblue;
+}
+.person{
+    border: solid 2px red;
+    border-radius: 5px;
+}
+.stage{
+    border:solid 2px red;
+    border-radius: 5px;
+}
+.others{
+    border: solid 2px red;
+    border-radius: 5px;
+}
+.Daizen{
+    color: aliceblue;
+}
+.game{
+    color: aliceblue;
+}
+.anime img{
+    width: 42%;
+    height: 42%;
 }
