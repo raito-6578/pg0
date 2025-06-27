@@ -1,5 +1,10 @@
-
-
+body{
+    background-image: url(image/haikei.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-attachment: scroll;
+}
 #content_nav{
     background-color: aquamarine;
     color: black;
