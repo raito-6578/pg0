@@ -1,10 +1,5 @@
-body{
-    background-image: url("image/haikei.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin: 0;
-}
+
+
 #content_nav{
     background-color: aquamarine;
     color: black;
@@ -32,7 +27,7 @@ body{
 }
 .information{
     margin-top: 21%;
-    font-family:serif;
+    font-family:HGP行書体;
     color: aliceblue;
     text-align: center;
     height: 100%;
@@ -112,4 +107,26 @@ body{
 .anime img{
     width: 42%;
     height: 42%;
+}
+.position{
+    color: aliceblue;
+    text-align: center;
+}
+.position table{
+    margin-top: 10%;
+    border: solid 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+th{
+    border: solid 1px;
+}
+td{
+    border: solid 1px;
+}
+.Barcelona{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 15%;
+    padding-top: 0;
 }
